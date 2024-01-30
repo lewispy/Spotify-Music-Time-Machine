@@ -23,7 +23,7 @@ Welcome to the Spotify Music Time Machine, a Python application that lets you tr
 + Requests: A Python library for making HTTP requests.
 
 ## Assumptions
-+ User is has a Spotify account
++ User has a Spotify account
 + User has created a developer account on Spotify
 + User has stored their client id and client secret as environment variables SPOTIFY_CLIENT_ID and SPOTIFY_CLIENT_SECRET respectively
 
