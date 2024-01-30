@@ -43,7 +43,7 @@ class PlaylistManager:
 		playlist_names = [pre_playlist["items"][i]["name"] for i, _ in enumerate(pre_playlist["items"])]
 
 		if self.playlist_name in playlist_names:
-			self.message = f"Playlist \"{self.playlist_name}\" already exists in user's library."
+			self.message = f"Playlist \"{self.playlist_name}\" already exists in user's library"
 			return None
 
 		self.sp.user_playlist_create(
