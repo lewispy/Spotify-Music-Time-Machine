@@ -1,1 +1,2 @@
-.txt
+colors.txt
+token.txt
